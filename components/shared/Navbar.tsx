@@ -34,7 +34,7 @@ const Navbar = () => {
         }`}
       >
         {link.map((lnk) => (
-          <span className="hover:text-primary ease-in duration-200">
+          <span key={lnk.link} className="hover:text-primary ease-in duration-200">
             <a href={lnk.link}>{lnk.title}</a>
           </span>
         ))}

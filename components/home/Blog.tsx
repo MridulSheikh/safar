@@ -70,7 +70,7 @@ const Blog = () => {
         <button className='mt-10 hover:underline ease-in duration-200 py-2 text-primary flex justify-around text-lg gap-4 items-center' onClick={()=>router.push('/')}>Explore More <AiOutlineArrowRight /></button>
         <div className='grid lg:grid-cols-3 gap-10 mt-5'>
             {
-              data.map(dt => <BlogCard title={dt.title} comments={dt.comments} content={dt.content} date={dt.date} cover={dt.cover} />)
+              data.map(dt => <BlogCard key={dt.title} title={dt.title} comments={dt.comments} content={dt.content} date={dt.date} cover={dt.cover} />)
             }
         </div>
     </div>

@@ -25,7 +25,7 @@ const ChooseUp = () => {
             <h1 className='text-5xl font-semibold text-gray-700'>Every Time we Provide Best Servie</h1>
             <div>
                 {
-                    data.map(dt => <div className='mt-5'>
+                    data.map((dt) => <div key={dt.title}  className='mt-5'>
                         <h3 className='text-2xl text-primary font-bold'>{dt.title}</h3>
                         <p className='text-lg text-gray-600 mt-2'>{dt.discription}</p>
                     </div>)
