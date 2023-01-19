@@ -18,7 +18,12 @@ export default function Home() {
       <Gallary />
       <Blog />
       <Revew />
-      <Contact />
+      <div className="bg-[url('/image/home/banner/banner.jpg')] bg-cover bg-center bg-no-repeat relative">
+        <div className="absolute w-full h-full top-0 blur-md" />
+        <div className="bg-gradient-to-tl to-slate-900/80 from-slate-900/50 relative z-40">
+        <Contact />
+        </div>
+      </div>
     </Layout>
   )
 }

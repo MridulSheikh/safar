@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 const Layout = ({children} : any) => {
@@ -13,6 +14,7 @@ const Layout = ({children} : any) => {
         <div className='scroll-smooth'>
             {children}
         </div>
+        <Footer />
     </div>
   )
 }

@@ -23,7 +23,7 @@ const Navbar = () => {
           !down ?  <h1 className={"text-3xl font-medium text-primary"}>SAFAR</h1> : <div />
         }
         <div>
-          <button onClick={() => setClick(!click)} className={`text-3xl ${down ? 'text-primary bg-white rounded-md' : 'text-white'}`}>
+          <button onClick={() => setClick(!click)} className={`text-3xl ${down ? 'text-primary rounded-md' : 'text-white'}`}>
             {!click ? <AiOutlineAlignRight /> : <AiOutlineMinus />}
           </button>
         </div>
