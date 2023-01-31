@@ -9,7 +9,7 @@ function SampleNextArrow(props : any) {
     const {onClick } = props;
     return (
       <span
-        className="text-3xl top-1/2 absolute right-0 md:right-10 cursor-pointer ease-in duration-200 bg hover:bg-black/25 w-14 h-14 flex justify-center items-center rounded-full text-white  hover:text-PrimaryYellow-500"
+        className="text-3xl top-1/2 absolute right-0 md:right-10 cursor-pointer ease-in duration-200 bg hover:bg-black/25 w-14 h-14 flex justify-center items-center rounded-full text-white/10  hover:text-PrimaryYellow-500"
         onClick={onClick}
       >
       <AiOutlineRight className="ml-1" /> 
@@ -21,7 +21,7 @@ function SampleNextArrow(props : any) {
     const {onClick } = props;
     return (
         <span
-        className="text-3xl top-1/2 absolute left-0 md:left-10 cursor-pointer ease-in duration-200 hover:bg-black/25 w-14 h-14 flex justify-center items-center rounded-full text-white  hover:text-PrimaryYellow-500 z-40"
+        className="text-3xl top-1/2 absolute left-0 md:left-10 cursor-pointer ease-in duration-200 hover:bg-black/25 w-14 h-14 flex justify-center items-center rounded-full text-white/10  hover:text-PrimaryYellow-500 z-40"
         onClick={onClick}
       >
       <AiOutlineLeft className="mr-1" />    

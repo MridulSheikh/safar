@@ -27,7 +27,7 @@ const PopularPlace = () => {
             <PopularPlaceCard img="/image/place/japan/japan.jpg" place="Japan, Japan" price={300} />
             <PopularPlaceCard img="/image/place/thiland/thiland.jpg" place="Thiland, Thiland" price={300} />
         </div>
-        <button className='mt-20 shadow-2xl bg-primary px-7 hover:bg-white hover:text-primary hover:outline outline-primary ease-in duration-200 py-2 text-white flex justify-around text-lg gap-4 items-center mx-auto' onClick={()=>router.push('/')}>Explore More <AiOutlineArrowRight /></button>
+        <button className='mt-20 shadow-2xl bg-primary px-7 hover:bg-white hover:text-primary hover:outline outline-primary ease-in duration-200 py-2 text-white flex justify-around text-lg gap-4 items-center mx-auto' onClick={()=>router.push('/service')}>Explore More <AiOutlineArrowRight /></button>
     </div>
   )
 }

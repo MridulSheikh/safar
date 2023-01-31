@@ -12,16 +12,9 @@ const Contact = () => {
       </h1>
       <div className="mt-20">
         <div></div>
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className=" md:w-1/2 mx-auto">
           <div>
-            <iframe
-              width="100%"
-              height="100%"
-              src={`https://api.maptiler.com/maps/basic-v2/?key=${process.env.MAP_KEY}#13.4/23.74635/90.38557`}
-            ></iframe>
-          </div>
-          <div>
-            <form className="flex flex-col items-center w-full px-10 py-5 shadow-md border rounded-md bg-white">
+            <form className="flex flex-col items-center w-full px-10 py-5 shadow-md border bg-white">
               <div className="w-full">
                 <span>*Name</span>
                 <br />

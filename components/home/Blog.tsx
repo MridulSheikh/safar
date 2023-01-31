@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import React from 'react'
 import { AiOutlineArrowRight } from 'react-icons/ai'
@@ -16,8 +17,8 @@ export const BlogCard = ({title, date, comments, content, cover} : props) => {
     const router = useRouter()
     return(
       <div className='shadow-md rounded-md overflow-hidden'>
-        <div className='h-60 overflow-hidden'>
-          <img src={cover} className="w-full object-fill" alt="" />
+        <div className='h-60 relative overflow-hidden'>
+          <Image src={cover} fill className="w-full object-fill" alt="" />
         </div>
         <div className='p-7 text-center'>
           <div className='flex justify-center items-center mb-3 gap-4'>
